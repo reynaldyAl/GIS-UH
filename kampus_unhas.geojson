@@ -1,0 +1,907 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Universitas Hasanuddin",
+        "keterangan": "Kampus Barayya",
+        "icon": "university"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+                          [119.42474081628248, -5.129657142835432],
+                          [119.42407890004834, -5.129651475796266],
+                          [119.42404096788586, -5.128697523971804],
+                          [119.42478254165633, -5.128646520567009],
+                          [119.42474081628248, -5.129657142835432]  
+                      ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung Magister Manajemen",
+        "keterangan": "Tempat Belajar dan Mengajar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.42413676372713,-5.128852061823738]
+       
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung Prof Solihin Wirasugena",
+        "keterangan": "Pelaksaan Seminar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.42459247732695, -5.1295193239283545]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "RSGM",
+        "keterangan": "Rumah Sakit "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.42432171392, -5.130119878989426]
+       
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Universitas Hasanuddin",
+        "keterangan": "Fakultas Teknik"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+                        [119.49899343888374, -5.229448645317508],
+                        [119.50426129718197, -5.2345983984539295],
+                        [119.50620321643262, -5.23230131464671],
+                        [119.50263051414805, -5.229747802249129],
+                        [119.49984101688196, -5.227878069017374],
+                        [119.49899343888374, -5.229448645317508]  
+        ]]
+      }
+
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung ART 09",
+        "keterangan": "Tempat Praktek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.50058945683054, -5.22983017628879]
+
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung Sipil",
+        "keterangan": "Tempat Belajar dan Mengajar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.50251503419226, -5.232072899388785]
+
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung Elektro",
+        "keterangan": "Tempat Belajar dan Mengajar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.50319825316453, -5.232732469811595]
+      
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung Arsitektur",
+        "keterangan": "Tempat Belajar dan Mengajar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.50270041752509, -5.231416248098424]
+      
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Perpustakaan CSA",
+        "keterangan": "Pusat informasi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.50210353944469, -5.2308726951338445]
+      
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung JK COT",
+        "keterangan": "Pusat Olahraga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.50157350637042, -5.230365083805566]
+      
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung Geologi",
+        "keterangan": "Tempat Belajar dan Mengajar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.5040980226632, -5.2327669974824556]
+      
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung  Teknik Mesin",
+        "keterangan": "Tempat Belajar dan Mengajar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.50364974937708, -5.232214357184846]
+      
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung  Naval",
+        "keterangan": "Tempat Belajar dan Mengajar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.50478019093893, -5.23343417161073]
+      
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": " Vokasi Sidrap",
+        "keterangan": "Area Vokasi Sidrap",
+        "category": "Fasilitas Pendidikan"
+    
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+                        [119.79538782842893, -3.9236519830536722],
+                        [119.79522823699881, -3.924101537858633],
+                        [119.79585453277925, -3.924291528209429],
+                        [119.79607447390981, -3.9238660568005006],
+                        [119.79538782842893, -3.9236519830536722]  
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung  Vokasi Teknologi Produksi dan pakan Ternak",
+        "keterangan": "Tempat Belajar dan Mengajar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.79567748614612, -3.9240562029822543]
+      
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Vokasi Barru",
+        "type": "Perpustakaan",
+        "keterangan": "Area Vokasi Barru",
+        "category": "Fasilitas Pendidikan",
+        "description": "Bangunan yang menyediakan layanan peminjaman buku, ruang baca, akses digital, serta dukungan pembelajaran dan penelitian bagi mahasiswa dan staf akademik."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [119.61974520968573, -4.409074834863234],
+          [119.61940382022617, -4.4089887945719966],
+          [119.61926252292206, -4.409340519655694],
+          [119.61902639521254, -4.4092771713330166],
+          [119.6189837215297, -4.409458706813089],
+          [119.61964402419295, -4.409733591950912],
+          [119.61974520968573, -4.409074834863234]  
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung  Vokasi Wisata Bahari",
+        "keterangan": "Tempat Belajar dan Mengajar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.61954553184086,-4.409334698433122]
+      
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Vokasi Soppeng",
+        "type": "Polygon",
+        "keterangan": "Area Vokasi Soppeng",
+        "category": "Fakultas"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [119.88590235796723, -4.3338569631459025],
+          [119.88640657284297, -4.3321019680783515],
+          [119.88577350617169, -4.3318545642962265],
+          [119.88564927000164, -4.332617121891402],
+          [119.88522686704843, -4.333131916657753],
+          [119.88497839472345, -4.333261303520579],
+          [119.88591982875472, -4.3338752025892875]
+        ]]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung Vokasi Agribisnis Pangan dan Peternakan ",
+        "keterangan": "Tempat Belajar dan Mengajar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.88586180279077, -4.333707601128969]
+      
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Vokasi Selayar",
+        "type": "Polygon",
+        "keterangan": "Area Vokasi Soppeng",
+        "category": "Fakultas"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [120.45934681198294, -6.118848122448811],
+          [120.45956530656441, -6.118508768626997],
+          [120.45928780249743, -6.118397764993651],
+          [120.45910439463707, -6.118521454755052],
+          [120.45901508298333, -6.118714918170609],
+          [120.4593643553435, -6.118843365153726]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung Vokasi Destinasi Wisata",
+        "keterangan": "Tempat Belajar dan Mengajar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.45932571708703, -6.118641991141519]
+      
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung Budidaya Laut dan Perikanan Tangkap",
+        "keterangan": "Tempat Belajar dan Mengajar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.45925023385149, -6.11874268051755]
+      
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung PSDKU",
+        "keterangan": "Wilayah Kampus Unhas Jakarta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8137254455195, -6.163907091317874]
+      
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Universitas Hasanuddin",
+        "type": "Polygon",
+        "keterangan": "Area Kampus Tamalan",
+        "category": "Fakultas"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [119.48906028696625, -5.140861480764471],
+            [119.4850383599314, -5.134681776980817],
+            [119.48276729210677, -5.130195975599979],
+            [119.48253763355956, -5.12895062005348],
+            [119.4851659479411, -5.127362152835285],
+            [119.48690114582577, -5.127514645849315],
+            [119.48949118397194, -5.130284929471206],
+            [119.49145278902583, -5.130430990485688],
+            [119.49216551439449, -5.130844332364393],
+            [119.49329324432306, -5.132434797457669],
+            [119.49398792601069, -5.133513076660588],
+            [119.49519685249413, -5.134384684318864],
+            [119.49640577897758, -5.135364118307093],
+            [119.49231781273234, -5.139233456271732]
+          ]
+        ]
+      }
+      
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung Rektorat",
+        "keterangan": "Pusat Administrasi Universitas Hasanuddin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.48856037734195, -5.133053718332012]
+      
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung PBT FMIPA UNHAS",
+        "keterangan": "Pusat Administrasi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.4863790961443, -5.132626112372751]
+      
+      }
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "LAB KOMPUTER FMIPA",
+        "keterangan": "Ruang Praktikum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.48677032410278, -5.132661388026233]
+      
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung Pasca FEB",
+        "keterangan": "Ruang belajar dan mengajar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.48698277220487, -5.1329428124893886]
+      
+      }
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung Baruga Andi Pangeran Pettarani",
+        "keterangan": "Tempat Wisuda "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.48953042198814, -5.131184966189574]
+      
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung Perpustakaan Pusat UNHAS",
+        "keterangan": "Pusat informasi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.48842849300256, -5.132292213990496]
+      
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung LPMPP",
+        "keterangan": "Tempat kegiatan workshop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.48857324317198, -5.132347288035336]
+      
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung Fakultas Ekonomi dan Bisnis",
+        "keterangan": "Layanan Informasi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.49032741210173, -5.130814638441517]
+      
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung Fakultas sosial dan politik ",
+        "keterangan": "Tempat Belajar dan Mengajar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.48953082736575, -5.131775855131789]
+      
+      }
+    },
+  
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung Fakultas Psikologi",
+        "keterangan": "Tempat Belajar dan Mengajar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.48810994762518, -5.131581972537597]
+      
+      }
+    },
+  
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung Auditorium Prof. A.Amiruddin",
+        "keterangan": "Tempat Pelaksanaan Seminar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.48769268866224, -5.131023159539751]
+      
+      }
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung Science Building FMIPA",
+        "keterangan": "Tempat Pelaksanaan Seminar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.48592299102953, -5.131887028151018]
+      
+      }
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung Fakultas Farmasi",
+        "keterangan": "Layanan Informasi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.48534556878978, -5.131916065528769]
+      
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung Fakultas Kelautan dan Perikanan",
+        "keterangan": "Tempat Pelaksanaan Seminar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.48412834501008, -5.12947812660606]
+      
+      }
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung Fakultas Peternakan",
+        "keterangan": "Tempat Pelaksanaan Seminar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 119.4858820601281, -5.1297518758997285]
+      
+      }
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung Fakultas  Kesehatan dan Masyarakat",
+        "keterangan": "Layanan Informasi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 119.48623341975944, -5.129429545362287]
+      
+      }
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung FKG",
+        "keterangan": "Tempat Belajar dan Mengajar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 119.4868051426082, -5.1291903509870735]
+      
+      }
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Aula Prof. Hardjoeno",
+        "keterangan": "Tempat Pelaksanaan Seminar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 119.4868051426082, -5.1291903509870735]
+      
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung Fakultas Keperawatan",
+        "keterangan": "Layanan Informasi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [  119.48606826499173, -5.133157728719849]
+      
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung Fakultas Pertanian",
+        "keterangan": "Layanan Informasi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 119.48463886405635, -5.1315332791754305]
+      
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung Pasca Sarjana",
+        "keterangan": "-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 119.48552058057136, -5.128517354253985]
+      
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung Fakultas  Kedokteran",
+        "keterangan": "Layanan Informasi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 119.48720066477748, -5.129489114795494]
+      
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Perpustakaan Fakultas Hukum",
+        "keterangan": "Sumber informasi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 119.49153621939568, -5.132254398033307]
+      
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung MKU",
+        "keterangan": "Tempat Belajar dan Mengajar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 119.49097820458768, -5.132408293638049]
+      
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung Fakultas Ilmu Budaya",
+        "keterangan": "Layanan Informasi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 119.49073426110229, -5.132686306311724]
+      
+      }
+    },
+    
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung RPA LT2 ",
+        "keterangan": "Tempat Belajar dan Mengajar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 119.48659185322146, -5.129642399786305]
+      
+      }
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "LAB ANATOMI LT1 ",
+        "keterangan": "Tempat Praktek Fakultas Kedokteran"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.48650523130141, -5.129591986145607]
+      
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung Departemen Biologi LT3 ",
+        "keterangan": "Tempat Praktek Fakultas Kedokteran"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.48671834796049, -5.132014734539928]
+      
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Baruga Prof. Dr. H Bahauddin Lopa ",
+        "keterangan": "Tempat Pelaksanaan Seminar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.48671834796049, -5.132014734539928]
+      
+      }
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung Pembelajaran Bersama ",
+        "keterangan": "Tempat Belajar dan Mengajar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 119.48793295533397, -5.131471311746368]
+      
+      }
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung Fakultas Kehutanan ",
+        "keterangan": "Layanan Informasi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.48410470334824, -5.13062448156324]
+      
+      }
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "LAB Terpadu Fakultas Kehutanan ",
+        "keterangan": "Tempat Praktek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.48406578347905, -5.130291341309042]
+      
+      }
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung Fakultas Vokasi  ",
+        "keterangan": "Layanan Informasi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 119.48823300360037, -5.135832944945513]
+      
+      }
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung Pertemuan Ilmiah  ",
+        "keterangan": "tempat pertemuan konfrensi dan berbagai kegiatan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.48842121039203, -5.136140303736168]
+      
+      }
+    },
+    
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung Pertemuan Alumni  ",
+        "keterangan": "tempat berkumpul dan berinteraksi alumni unhas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.48886846873981, -5.136576416068392]
+      
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung Ipteks Unhas  ",
+        "keterangan": "tempat acara berbagai kegiatan "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.48891686889635, -5.136228808522464]
+      
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung Registrasi  ",
+        "keterangan": "pusat layanan administrasi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 119.49087943985296, -5.135365800881027]
+      
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung LPPM Unhas ",
+        "keterangan": "Pusat penelitian Universitas Hasanuddin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.49005818870688, -5.1351180805480245]
+      
+      }
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung PTIK ",
+        "keterangan": "Pusat Teknologi dan informasi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.4906854287567, -5.134739313149396]
+      
+      }
+    },
+    
+
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "LAB Etomologi Unhas ",
+        "keterangan": "Tempat Praktek Fakultas Pertanian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 119.48503522522208, -5.1310370308956825]
+      
+      }
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung Fakultas Hukum ",
+        "keterangan": "Layanan Informasi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.49146333812331, -5.132101091517076]
+      
+      }
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung Layanan Bahasa",
+        "keterangan": "Layanan pembelajaran bahasa indonesia penutur asing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.48923843887835, -5.132387684862233]
+      
+      }
+    }
+    
+    
+
+  ]
+}

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <title>Peta Interaktif Kampus UNHAS</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="Assets/image/favicon.ico" type="image/x-icon">
+  
+  <!-- External CSS Libraries -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.8/dist/leaflet-search.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.fullscreen@1.6.0/Control.FullScreen.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.74.0/dist/L.Control.Locate.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.css" />
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="Assets/css/style.css">
+  
+
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="header-logo">
+        <img src="Assets/image/Logo-Resmi-Unhas-1.png" alt="Logo UNHAS" class="logo">
+        <div class="title-container">
+          <h1>PETA INTERAKTIF UNIVERSITAS HASANUDDIN</h1>
+          <p>Visualisasi seluruh lokasi kampus dan fasilitas UNHAS</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="main-content">
+      <button class="toggle-sidebar">
+        <i class="fas fa-bars"></i>
+      </button>
+      
+      <div class="sidebar">
+        <div class="sidebar-header">
+          <h2><i class="fas fa-map-marked-alt"></i> Kontrol Peta</h2>
+          <i class="fas fa-info-circle" title="Gunakan panel ini untuk mengontrol tampilan peta"></i>
+        </div>
+
+        <button class="sidebar-close">
+          <i class="fas fa-times"></i>
+        </button>
+        
+        <div class="search-container">
+          <h3><i class="fas fa-search"></i> Pencarian</h3>
+          <div id="searchBox"></div>
+        </div>
+        
+        <div class="campus-selector">
+          <h3><i class="fas fa-university"></i> Pilih Kampus</h3>
+          <select id="campusSelect">
+            <option value="tamalanrea">Kampus Tamalanrea (Utama)</option>
+            <option value="barayya">Kampus Barayya</option>
+            <option value="teknik">Fakultas Teknik</option>
+            <option value="sidrap">Vokasi Sidrap</option>
+            <option value="barru">Vokasi Barru</option>
+            <option value="soppeng">Vokasi Soppeng</option>
+            <option value="selayar">Vokasi Selayar</option>
+            <option value="jakarta">Kampus Jakarta</option>
+            <option value="all">Semua Kampus</option>
+          </select>
+        </div>
+        
+        <div class="label-toggle">
+          <h3><i class="fas fa-tags"></i> Tampilan Label</h3>
+          <div class="layer-item">
+            <label class="custom-checkbox">
+              <input type="checkbox" id="toggleLabels">
+              <span class="checkmark"></span>
+            </label>
+            Tampilkan Label Gedung
+          </div>
+        </div>
+        
+        <div class="layer-control">
+          <h3><i class="fas fa-layer-group"></i> Jenis Fasilitas</h3>
+          <div class="layer-item">
+            <label class="custom-checkbox">
+              <input type="checkbox" id="academicBuildings" checked>
+              <span class="checkmark"></span>
+            </label>
+            Gedung Akademik
+          </div>
+          <div class="layer-item">
+            <label class="custom-checkbox">
+              <input type="checkbox" id="administrativeBuildings" checked>
+              <span class="checkmark"></span>
+            </label>
+            Gedung Administrasi
+          </div>
+          <div class="layer-item">
+            <label class="custom-checkbox">
+              <input type="checkbox" id="facilities" checked>
+              <span class="checkmark"></span>
+            </label>
+            Fasilitas Umum
+          </div>
+          <div class="layer-item">
+            <label class="custom-checkbox">
+              <input type="checkbox" id="laboratories" checked>
+              <span class="checkmark"></span>
+            </label>
+            Laboratorium
+          </div>
+          <div class="layer-item">
+            <label class="custom-checkbox">
+              <input type="checkbox" id="halls" checked>
+              <span class="checkmark"></span>
+            </label>
+            Aula dan Baruga
+          </div>
+          <div class="layer-item">
+            <label class="custom-checkbox">
+              <input type="checkbox" id="libraries" checked>
+              <span class="checkmark"></span>
+            </label>
+            Perpustakaan
+          </div>
+        </div>
+        
+        <div class="legend">
+          <h3><i class="fas fa-list-ul"></i> Legenda</h3>
+          <div class="legend-item">
+            <div class="legend-marker" style="background-color: rgba(231, 76, 60, 0.2);">
+              <i class="fas fa-university" style="color: #e74c3c;"></i>
+            </div>
+            <span>Gedung Akademik</span>
+          </div>
+          <div class="legend-item">
+            <div class="legend-marker" style="background-color: rgba(52, 152, 219, 0.2);">
+              <i class="fas fa-building" style="color: #3498db;"></i>
+            </div>
+            <span>Gedung Administrasi</span>
+          </div>
+          <div class="legend-item">
+            <div class="legend-marker" style="background-color: rgba(46, 204, 113, 0.2);">
+              <i class="fas fa-wrench" style="color: #2ecc71;"></i>
+            </div>
+            <span>Fasilitas Umum</span>
+          </div>
+          <div class="legend-item">
+            <div class="legend-marker" style="background-color: rgba(155, 89, 182, 0.2);">
+              <i class="fas fa-flask" style="color: #9b59b6;"></i>
+            </div>
+            <span>Laboratorium</span>
+          </div>
+          <div class="legend-item">
+            <div class="legend-marker" style="background-color: rgba(243, 156, 18, 0.2);">
+              <i class="fas fa-users" style="color: #f39c12;"></i>
+            </div>
+            <span>Aula dan Baruga</span>
+          </div>
+          <div class="legend-item">
+            <div class="legend-marker" style="background-color: rgba(22, 160, 133, 0.2);">
+              <i class="fas fa-book" style="color: #16a085;"></i>
+            </div>
+            <span>Perpustakaan</span>
+          </div>
+        </div>
+        
+        <div id="buildingDetails" class="building-details">
+          <!-- Detail gedung akan ditampilkan di sini -->
+        </div>
+      </div>
+      
+      <div class="map-container">
+        <div id="map"></div>
+      </div>
+      
+      <div class="mobile-overlay"></div>
+    </div>
+  </div>
+
+  <!-- External JS Libraries -->
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+  <script src="https://unpkg.com/leaflet-search@3.0.2/dist/leaflet-search.src.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/leaflet.fullscreen@1.6.0/Control.FullScreen.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.74.0/dist/L.Control.Locate.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/leaflet.browser.print@1.0.6/dist/leaflet.browser.print.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.min.js"></script>
+
+  <!-- Load your custom JavaScript -->
+  <script src="Assets/js/map.js"></script>
+  
+
+</body>
+</html>
